@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>ExtraTowers</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Nullable>enable</Nullable>
+        <AssemblyName>ExtraTowers</AssemblyName>
+        <LangVersion>latest</LangVersion>
+        <Optimize>False</Optimize>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+    <ItemGroup>
+      <None Remove="Towers\CustomTower\Images\Icon\Icon010CustomTower.png" />
+      <None Remove="Towers\CustomTower\Images\Icon\Icon020CustomTower.png" />
+      <None Remove="Towers\CustomTower\Images\Icon\Icon030CustomTower.png" />
+      <None Remove="Towers\CustomTower\Images\Icon\Icon040CustomTower.png" />
+      <None Remove="Towers\CustomTower\Images\Icon\Icon050CustomTower.png" />
+      <None Remove="Towers\CustomTower\Images\Portrait\Portrait000CustomMonkey.png" />
+      <None Remove="Towers\MonkeyFortress\Images\000-MonkeyVillage_0.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Icon\Icon000MonkeyFortress.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Icon\Icon010MonkeyFortress.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Icon\Icon020MonkeyFortress.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Icon\Icon030MonkeyFortress.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Icon\Icon040MonkeyFortress.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Icon\Icon050MonkeyFortress.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\000-DartMonkey.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\000-NInjaMonkey.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\000-SniperMonkey.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\004-SuperMonkey.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\030-Dartmonkey.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\030-SniperMonkey.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\300-Alchemist.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\300-NinjaMonkey.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\Portrait010MonkeyFortress.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\Portrait020MonkeyFortress.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\Portrait030MonkeyFortress.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\Portrait040MonkeyFortress.png" />
+      <None Remove="Towers\MonkeyFortress\Images\Portrait\Portrait050MonkeyFortress.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Display\SpikeOverlord000.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Display\SpikeOverlord010.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Display\SpikeOverlord020.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Display\SpikeOverlord030.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Display\SpikeOverlord040.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Display\SpikeOverlord050.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Icon\Icon000SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Icon\Icon010SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Icon\Icon020SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Icon\Icon030SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Icon\Icon040SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Icon\Icon050SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Portrait\Portrait000SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Portrait\Portrait010SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Portrait\Portrait020SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Portrait\Portrait030SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Portrait\Portrait040SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Portrait\Portrait050SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Projectile\Projectile000SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Projectile\Projectile010SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Projectile\Projectile040SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Projectile\ProjectileBall030SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Projectile\ProjectileBall050SpikeOverlord.png" />
+      <None Remove="Towers\SpikeOverlord - Copier\Images\Projectile\ProjectileMines050SpikeOverlord.png" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Towers\SpikeOverlord\Images\" />
+    </ItemGroup>
+
+    <Import Project="..\btd6.targets" />
+	
+	
+</Project>
